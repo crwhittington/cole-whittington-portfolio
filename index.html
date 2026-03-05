@@ -42,15 +42,11 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
           <li class="nav__item"><a href="#clients" class="nav__link">Experience</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
           <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -62,8 +58,8 @@
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p>Data Scientist</p>
-        <a href="https://www.linkedin.com/in/cole-whittington/" target="_blank" class="btn btn--pink">LinkedIn</a>
         <a href="#work" target="_blank" class="btn btn--pink">My Projects</a>
+        <a href="https://www.linkedin.com/in/cole-whittington/" target="_blank" class="btn btn--pink">LinkedIn</a>
 
       </div>
     </div>
@@ -71,7 +67,46 @@
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+    
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__info">
+            <div class="about__content">
+                <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I’m an aspiring Data Scientist passionate about using data and machine learning to help build smarter, more equitable cities. 
+              I’m currently pursuing my Master’s in Data Science at UVA, where I’m diving into advanced topics like natural language processing 
+              and large language models.
+            
+            My journey into data science began with the Data Justice Academy at UVA, where I first saw how data can drive meaningful change across 
+            public policy, finance, urban planning, and more. That experience continues to inspire how I approach the field today.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="./files/Cole Whittington_Resume.pdf" class="btn">Download Resume</a>
+                </div>
+                <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/Whittington_Headshot_August_2025.png" alt="" />
+                </div>
+                <div class="about__articles">
+            <h3> Featured Articles </h3>
+                <a href="https://datascience.virginia.edu/news/msds-residential-student-profile-cole-whittington-0" class="link__text">
+                  Student Profile <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/rotunda_logo.png" class="work__code" title="SDS Article" alt="Rotunda">
+                </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Projects ***** -->
 
     <section class="work" id="work">
       <div class="row">
@@ -241,7 +276,7 @@
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+    <!-- ***** Experience ***** -->
 
     <section class="client" id="clients">
       <div class="row">
@@ -263,44 +298,6 @@
             <a href="https://datascience.virginia.edu/news/data-justice-academy-welcomes-15-student-researchers-second-year" title="DJA" target="_blank">
           <img src="./images/dja_logo.jpg" class="client__logo" alt="DJA" />
             </a>            
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__info">
-            <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I’m an aspiring Data Scientist passionate about using data and machine learning to help build smarter, more equitable cities. 
-              I’m currently pursuing my Master’s in Data Science at UVA, where I’m diving into advanced topics like natural language processing 
-              and large language models.
-            
-            My journey into data science began with the Data Justice Academy at UVA, where I first saw how data can drive meaningful change across 
-            public policy, finance, urban planning, and more. That experience continues to inspire how I approach the field today.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="./files/Cole Whittington_Resume.pdf" class="btn">Download Resume</a>
-          </div>
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/Whittington_Headshot_August_2025.png" alt="" />
-          </div>
-            </div>
-            <div class="about__articles">
-            <h3> Featured Articles </h3>
-                <a href="https://datascience.virginia.edu/news/msds-residential-student-profile-cole-whittington-0" class="link__text">
-                  Student Profile <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/rotunda_logo.png" class="work__code" title="SDS Article" alt="Rotunda">
-                </a>
-            </div>
         </div>
       </div>
     </section>
