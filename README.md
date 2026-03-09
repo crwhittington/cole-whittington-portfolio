@@ -1,7 +1,9 @@
 # Cole Whittington's Portfolio
 
-**Link Site:**
+**Link Site: https://crwhittington.github.io/cole-whittington-portfolio/**
+
 **GitHub: https://github.com/crwhittington**
+
 **LinkedIn: https://www.linkedin.com/in/cole-whittington/**
 
 # About
